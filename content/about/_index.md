@@ -6,7 +6,7 @@ draft: false
 
 ## Меня зовут Зубов Михаил!
 
-![Мое фото](static\images\me.jpg)
+![Мое фото](https://mzg2022.github.io/portfolio/images/me.jpg)
 
 Студент 4 курса РГПУ им. А.И. Герцена
 
