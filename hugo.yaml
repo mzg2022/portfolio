@@ -27,6 +27,7 @@ params:
   hideSummary: false
   showtoc: true
   tocopen: true
+  mainSections: [""]
 
   assets:
     disableHLJS: true
