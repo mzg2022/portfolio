@@ -1,0 +1,36 @@
+/* Скрыть только карточки курсов, оставив аккордеоны */
+main article.post-entry,
+main .post-entry,
+main .entry-header,
+main .entry-content,
+main .entry-footer {
+  display: none !important;
+  visibility: hidden !important;
+}
+
+/* Скрыть блок posts где хранятся карточки */
+main .posts,
+main section.posts,
+main section.archives {
+  display: none !important;
+  visibility: hidden !important;
+}
+
+/* Убрать заголовки разделов которые дублируются */
+main .page-content h1:not(:first-child),
+main h1.entry-title {
+  display: none !important;
+}
+
+/* Убрать дублирующие заголовки если есть */
+main h1:first-child + h1 {
+  display: none !important;
+}
+
+/* Оставить только аккордеоны */
+main .accordion,
+main .accordion-content,
+main .subject-content {
+  display: block !important;
+  visibility: visible !important;
+}

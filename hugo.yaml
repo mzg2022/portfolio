@@ -31,6 +31,7 @@ params:
   assets:
     disableHLJS: true
     disableFingerprinting: false
+    customCSS: ["css/hide-cards.css"]
 
   profileMode:
     enabled: true
