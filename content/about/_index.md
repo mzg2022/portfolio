@@ -6,7 +6,7 @@ draft: false
 
 ## Меня зовут Зубов Михаил!
 
-![Мое фото](/images/me.jpg){width="300" style="border-radius: 50%;"}
+![Мое фото](/images/me.jpg)
 
 Студент 4 курса РГПУ им. А.И. Герцена
 
