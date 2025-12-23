@@ -4,8 +4,6 @@ date: 2024-12-23T10:00:00+00:00
 draft: false
 ---
 
-# Мои проекты
-
 Здесь представлены мои учебные работы по всем курсам обучения.
 
 <script>
@@ -30,8 +28,8 @@ function toggleAccordion(id) {
 .accordion-header {
   cursor: pointer;
   padding: 15px;
-  background: #f8f9fa;
-  border: 1px solid #e9ecef;
+  background: var(--theme-background, #f8f9fa);
+  border: 1px solid var(--theme-border, #e9ecef);
   margin: 5px 0;
   border-radius: 8px;
   font-weight: bold;
@@ -42,13 +40,13 @@ function toggleAccordion(id) {
 }
 
 .accordion-header:hover {
-  background: #e9ecef;
+  background: var(--theme-hover, #e9ecef);
 }
 
 .accordion-header.active {
-  background: #007bff;
+  background: var(--accent-color, #007bff);
   color: white;
-  border-color: #007bff;
+  border-color: var(--accent-color, #007bff);
 }
 
 .accordion-icon {
@@ -59,8 +57,8 @@ function toggleAccordion(id) {
 .accordion-content {
   margin-left: 20px;
   padding: 15px;
-  border-left: 3px solid #007bff;
-  background: #f8f9fa;
+  border-left: 3px solid var(--accent-color, #007bff);
+  background: var(--theme-background, #f8f9fa);
   border-radius: 0 8px 8px 0;
   display: none;
   margin-top: -5px;
@@ -71,16 +69,16 @@ function toggleAccordion(id) {
   display: block;
   padding: 8px 12px;
   margin: 5px 0;
-  background: white;
+  background: var(--card-background, white);
   text-decoration: none;
-  color: #007bff;
+  color: var(--accent-color, #007bff);
   border-radius: 5px;
-  border: 1px solid #dee2e6;
+  border: 1px solid var(--theme-border, #dee2e6);
   transition: all 0.3s ease;
 }
 
 .project-link:hover {
-  background: #007bff;
+  background: var(--accent-color, #007bff);
   color: white;
   text-decoration: none;
   transform: translateX(5px);
@@ -89,8 +87,8 @@ function toggleAccordion(id) {
 .subject-header {
   cursor: pointer;
   padding: 10px;
-  background: white;
-  border: 1px solid #dee2e6;
+  background: var(--card-background, white);
+  border: 1px solid var(--theme-border, #dee2e6);
   margin: 8px 0;
   border-radius: 5px;
   font-weight: normal;
@@ -98,15 +96,99 @@ function toggleAccordion(id) {
 }
 
 .subject-header:hover {
-  background: #f1f3f4;
+  background: var(--theme-hover, #f1f3f4);
 }
 
 .subject-content {
   margin-left: 15px;
   padding: 10px;
-  background: white;
+  background: var(--card-background, white);
   border-radius: 5px;
   display: none;
+}
+
+/* Темная тема */
+@media (prefers-color-scheme: dark) {
+  .accordion-header {
+    background: #2d3748;
+    border-color: #4a5568;
+    color: #e2e8f0;
+  }
+  
+  .accordion-header:hover {
+    background: #4a5568;
+  }
+  
+  .accordion-content {
+    background: #2d3748;
+  }
+  
+  .project-link {
+    background: #1a202c;
+    border-color: #4a5568;
+    color: #63b3ed;
+  }
+  
+  .project-link:hover {
+    background: #3182ce;
+    color: white;
+  }
+  
+  .subject-header {
+    background: #1a202c;
+    border-color: #4a5568;
+    color: #e2e8f0;
+  }
+  
+  .subject-header:hover {
+    background: #2d3748;
+  }
+  
+  .subject-content {
+    background: #1a202c;
+    color: #e2e8f0;
+  }
+}
+
+/* Автоматическая тема */
+[data-theme=dark] .accordion-header {
+  background: #2d3748;
+  border-color: #4a5568;
+  color: #e2e8f0;
+}
+
+[data-theme=dark] .accordion-header:hover {
+  background: #4a5568;
+}
+
+[data-theme=dark] .accordion-content {
+  background: #2d3748;
+}
+
+[data-theme=dark] .project-link {
+  background: #1a202c;
+  border-color: #4a5568;
+  color: #63b3ed;
+}
+
+[data-theme=dark] .project-link:hover {
+  background: #3182ce;
+  color: white;
+}
+
+[data-theme=dark] .subject-header {
+  background: #1a202c;
+  border-color: #4a5568;
+  color: #e2e8f0;
+}
+
+[data-theme=dark] .subject-header:hover {
+  background: #2d3748;
+}
+
+[data-theme=dark] .subject-content {
+  background: #1a202c;
+  color: #e2e8f0;
 }
 </style>
 
