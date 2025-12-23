@@ -2,18 +2,51 @@ baseURL: https://mzg2022.github.io/portfolio/
 languageCode: ru-ru
 title: Веб-портфолио Зубова Михаила
 author: Зубов Михаил
-theme: hugo-book
+theme: PaperMod
+
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
 
 params:
   author: Зубов Михаил
   description: Веб-портфолио студента 4 курса РГПУ им. А.И. Герцена
-  BookTheme: 'auto'
-  BookToC: true
-  BookSearch: true
-  BookLogo: 'favicon.ico'
-  BookRepo: 'https://github.com/mzg2022/portfolio'
-  BookEditPath: 'edit/main/content/'
-  BookSection: 'docs'
+  defaultTheme: auto
+  ShowReadingTime: true
+  ShowShareButtons: false
+  ShowBreadCrumbs: true
+  ShowCodeCopyButtons: true
+  ShowWordCount: false
+  ShowRssButtonInSectionTermList: false
+  ShowToc: true
+  disableSpecial1stPost: true
+  disableScrollToTop: false
+  comments: false
+  hidemeta: false
+  hideSummary: false
+  showtoc: true
+  tocopen: true
+
+  assets:
+    disableHLJS: true
+    disableFingerprinting: false
+
+  profileMode:
+    enabled: true
+    title: "Привет! Это мое веб-портфолио"
+    subtitle: "Добро пожаловать на мой персональный сайт!"
+    imageUrl: ""
+    imageTitle: "Зубов Михаил"
+    buttons:
+      - name: Об авторе
+        url: /about/
+      - name: Проекты
+        url: /projects/
+
+  socialIcons:
+    - name: github
+      url: "https://github.com/mzg2022"
 
 menu:
   main:
@@ -21,8 +54,8 @@ menu:
       url: /
       weight: 10
     - name: Об авторе
-      url: /docs/about/
+      url: /about/
       weight: 20
     - name: Проекты
-      url: /docs/projects/
+      url: /projects/
       weight: 30
