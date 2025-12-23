@@ -192,103 +192,36 @@ function toggleAccordion(id) {
 }
 </style>
 
-## 1 курс
 <div class="accordion-header" onclick="toggleAccordion('course1')">
   <span><span class="accordion-icon">▶</span> 1 курс</span>
 </div>
 <div id="course1" class="accordion-content">
-  
-  <div class="subject-header" onclick="toggleAccordion('course1-math')">
-    <span><span class="accordion-icon">▶</span> 📐 Математика</span>
-  </div>
-  <div id="course1-math" class="subject-content">
-    <a href="/projects/course1/math/lab1/" class="project-link">Лабораторная работа №1</a>
-    <a href="/projects/course1/math/lab2/" class="project-link">Лабораторная работа №2</a>
-    <a href="/projects/course1/math/kurs/" class="project-link">Курсовая работа</a>
-  </div>
-  
+    
   <div class="subject-header" onclick="toggleAccordion('course1-programming')">
     <span><span class="accordion-icon">▶</span> 💻 Программирование</span>
   </div>
   <div id="course1-programming" class="subject-content">
-    <a href="/projects/course1/programming/lab1/" class="project-link">Лабораторная работа №1</a>
-    <a href="/projects/course1/programming/lab2/" class="project-link">Лабораторная работа №2</a>
-    <a href="/projects/course1/programming/project/" class="project-link">Курсовой проект</a>
+    <a href="https://mzg2022.github.io/portfolio/projects/course1/programming/lab1/" class="project-link">Лабораторная работа №1</a>
   </div>
 </div>
 
-## 2 курс
 <div class="accordion-header" onclick="toggleAccordion('course2')">
   <span><span class="accordion-icon">▶</span> 2 курс</span>
 </div>
 <div id="course2" class="accordion-content">
   
-  <div class="subject-header" onclick="toggleAccordion('course2-algorithms')">
-    <span><span class="accordion-icon">▶</span> ⚡ Алгоритмы и структуры данных</span>
-  </div>
-  <div id="course2-algorithms" class="subject-content">
-    <a href="/projects/course2/algorithms/lab1/" class="project-link">Лабораторная работа №1</a>
-    <a href="/projects/course2/algorithms/lab2/" class="project-link">Лабораторная работа №2</a>
-    <a href="/projects/course2/algorithms/kurs/" class="project-link">Курсовая работа</a>
-  </div>
-  
-  <div class="subject-header" onclick="toggleAccordion('course2-databases')">
-    <span><span class="accordion-icon">▶</span> 🗄️ Базы данных</span>
-  </div>
-  <div id="course2-databases" class="subject-content">
-    <a href="/projects/course2/databases/lab1/" class="project-link">Лабораторная работа №1</a>
-    <a href="/projects/course2/databases/lab2/" class="project-link">Лабораторная работа №2</a>
-    <a href="/projects/course2/databases/project/" class="project-link">Курсовой проект</a>
-  </div>
 </div>
 
-## 3 курс
 <div class="accordion-header" onclick="toggleAccordion('course3')">
   <span><span class="accordion-icon">▶</span> 3 курс</span>
 </div>
 <div id="course3" class="accordion-content">
   
-  <div class="subject-header" onclick="toggleAccordion('course3-web')">
-    <span><span class="accordion-icon">▶</span> 🌐 Веб-разработка</span>
-  </div>
-  <div id="course3-web" class="subject-content">
-    <a href="/projects/course3/web/lab1/" class="project-link">Лабораторная работа №1</a>
-    <a href="/projects/course3/web/lab2/" class="project-link">Лабораторная работа №2</a>
-    <a href="/projects/course3/web/project/" class="project-link">Курсовой проект</a>
-  </div>
-  
-  <div class="subject-header" onclick="toggleAccordion('course3-ml')">
-    <span><span class="accordion-icon">▶</span> 🤖 Машинное обучение</span>
-  </div>
-  <div id="course3-ml" class="subject-content">
-    <a href="/projects/course3/ml/lab1/" class="project-link">Лабораторная работа №1</a>
-    <a href="/projects/course3/ml/lab2/" class="project-link">Лабораторная работа №2</a>
-    <a href="/projects/course3/ml/kurs/" class="project-link">Курсовая работа</a>
-  </div>
 </div>
 
-## 4 курс
 <div class="accordion-header" onclick="toggleAccordion('course4')">
   <span><span class="accordion-icon">▶</span> 4 курс</span>
 </div>
 <div id="course4" class="accordion-content">
   
-  <div class="subject-header" onclick="toggleAccordion('course4-thesis')">
-    <span><span class="accordion-icon">▶</span> 🎓 Дипломное проектирование</span>
-  </div>
-  <div id="course4-thesis" class="subject-content">
-    <a href="/projects/course4/thesis/intro/" class="project-link">Введение в дипломную работу</a>
-    <a href="/projects/course4/thesis/chapter1/" class="project-link">Глава 1: Анализ предметной области</a>
-    <a href="/projects/course4/thesis/chapter2/" class="project-link">Глава 2: Проектирование системы</a>
-    <a href="/projects/course4/thesis/implementation/" class="project-link">Реализация и тестирование</a>
-  </div>
-  
-  <div class="subject-header" onclick="toggleAccordion('course4-soft')">
-    <span><span class="accordion-icon">▶</span> 📦 Программная инженерия</span>
-  </div>
-  <div id="course4-soft" class="subject-content">
-    <a href="/projects/course4/soft/lab1/" class="project-link">Лабораторная работа №1</a>
-    <a href="/projects/course4/soft/lab2/" class="project-link">Лабораторная работа №2</a>
-    <a href="/projects/course4/soft/project/" class="project-link">Курсовой проект</a>
-  </div>
 </div>
