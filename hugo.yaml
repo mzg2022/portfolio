@@ -1,0 +1,21 @@
+baseURL: https://mzg2022.github.io/portfolio/
+languageCode: ru-ru
+title: Веб-портфолио Зубова Михаила
+author: Зубов Михаил
+theme: ananke
+
+params:
+  author: Зубов Михаил
+  description: Веб-портфолио студента 4 курса РГПУ им. А.И. Герцена
+
+menu:
+  main:
+    - name: Главная
+      url: /
+      weight: 10
+    - name: Об авторе
+      url: /about/
+      weight: 20
+    - name: Проекты
+      url: /projects/
+      weight: 30
