@@ -196,20 +196,16 @@ function toggleAccordion(id) {
   <span><span class="accordion-icon">▶</span> 1 курс</span>
 </div>
 <div id="course1" class="accordion-content">
-    
-  <div class="subject-header" onclick="toggleAccordion('course1-programming')">
-    <span><span class="accordion-icon">▶</span> 💻 Программирование</span>
-  </div>
-  <div id="course1-programming" class="subject-content">
-    <a href="https://mzg2022.github.io/portfolio/projects/course1/programming/lab1/" class="project-link">Лабораторная работа №1</a>
-  </div>
+  
 </div>
 
 <div class="accordion-header" onclick="toggleAccordion('course2')">
   <span><span class="accordion-icon">▶</span> 2 курс</span>
 </div>
 <div id="course2" class="accordion-content">
-  
+  <div id="course2" class="subject-header">
+    <a href=/portfolio/projects/course2/adds/ class="project-link"> Анализ данных и основы Data science</a>
+  </div>
 </div>
 
 <div class="accordion-header" onclick="toggleAccordion('course3')">
