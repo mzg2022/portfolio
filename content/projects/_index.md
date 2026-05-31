@@ -206,18 +206,130 @@ function toggleAccordion(id) {
   <div id="course2" class="subject-header">
     <a href=/portfolio/projects/course2/adds/ class="project-link"> Анализ данных и основы Data science</a>
   </div>
+  <div id="course2" class="subject-header">
+    <a href=/portfolio/projects/course2/bd/ class="project-link"> Базы данных</a>
+  </div>
+  <div id="course2" class="subject-header">
+    <a href=/portfolio/projects/course2/vt/ class="project-link"> Вычислительная техника</a>
+  </div>
+  <div id="course2" class="subject-header">
+    <a href=/portfolio/projects/course2/vm/ class="project-link"> Вычислительная математика</a>
+  </div>
+  <div id="course2" class="subject-header">
+    <a href=/portfolio/projects/course2/kp/ class="project-link"> Компьютерный практикум</a>
+  </div>
+  <div id="course2" class="subject-header">
+    <a href=/portfolio/projects/course2/os/ class="project-link"> Операционные системы</a>
+  </div>
+  <div id="course2" class="subject-header">
+    <a href=/portfolio/projects/course2/ppp/ class="project-link"> Пакеты прикладных программ для статистической обработки и анализа данных</a>
+  </div>
+  <div id="course2" class="subject-header">
+    <a href=/portfolio/projects/course2/prog/ class="project-link"> Программирование</a>
+  </div>
+  <div id="course2" class="subject-header">
+    <a href=/portfolio/projects/course2/svt/ class="project-link"> СВТ</a>
+  </div>
+  <div id="course2" class="subject-header">
+    <a href=/portfolio/projects/course2/svt/ class="project-link"> Технологии компьютерного моделирования</a>
+  </div>
+  <div id="course2" class="subject-header">
+    <a href=/portfolio/projects/course2/kurs/ class="project-link"> Курсовая работа</a>
+  </div>
+  <div id="course2" class="subject-header">
+    <a href=/portfolio/projects/course2/pract/ class="project-link"> Практики</a>
+  </div>
 </div>
 
 <div class="accordion-header" onclick="toggleAccordion('course3')">
   <span><span class="accordion-icon">▶</span> 3 курс</span>
 </div>
 <div id="course3" class="accordion-content">
-  
+  <div id="course3" class="subject-header">
+    <a href=/portfolio/projects/course3/ppp/ class="project-link"> Пакеты прикладных программ для статистической обработки и анализа данных</a>
+  </div>
+  <div id="course3" class="subject-header">
+    <a href=/portfolio/projects/course3/itmanag/ class="project-link"> IT-менеджмент</a>
+  </div>
+  <div id="course3" class="subject-header">
+    <a href=/portfolio/projects/course3/obi/ class="project-link"> Основы бизнес-информатики</a>
+  </div>
+  <div id="course3" class="subject-header">
+    <a href=/portfolio/projects/course3/cg/ class="project-link"> Компьютерная графика</a>
+  </div>
+  <div id="course3" class="subject-header">
+    <a href=/portfolio/projects/course3/st/ class="project-link"> Сети и телекоммуникации</a>
+  </div>
+  <div id="course3" class="subject-header">
+    <a href=/portfolio/projects/course3/prog/ class="project-link"> Программирование</a>
+  </div>
+  <div id="course3" class="subject-header">
+    <a href=/portfolio/projects/course3/mogo/ class="project-link"> Математические основы глубокого обучения</a>
+  </div>
+  <div id="course3" class="subject-header">
+    <a href=/portfolio/projects/course3/oau/ class="project-link"> Основы электронного управления</a>
+  </div>
+  <div id="course3" class="subject-header">
+    <a href=/portfolio/projects/course3/okeo/ class="project-link"> Основы корпоративного электронного обучения</a>
+  </div>
+  <div id="course3" class="subject-header">
+    <a href=/portfolio/projects/course3/pit/ class="project-link"> Прикладные информационные технологии</a>
+  </div>
+  <div id="course3" class="subject-header">
+    <a href=/portfolio/projects/course3/ig/ class="project-link"> Инженерная графика</a>
+  </div>
+  <div id="course3" class="subject-header">
+    <a href=/portfolio/projects/course3/ml/ class="project-link"> Основы машинного обучения</a>
+  </div>
+  <div id="course3" class="subject-header">
+    <a href=/portfolio/projects/course3/ttvd/ class="project-link"> Техники и технологии визуализации данных</a>
+  </div>
+  <div id="course3" class="subject-header">
+    <a href=/portfolio/projects/course3/ttpp/ class="project-link"> Техника и технологии представления и публикации информации</a>
+  </div>
+  <div id="course3" class="subject-header">
+    <a href=/portfolio/projects/course3/itisba/ class="project-link"> Информационные технологии и системы бизнес-аналитики</a>
+  </div>
+  <div id="course3" class="subject-header">
+    <a href=/portfolio/projects/course3/kurs/ class="project-link"> Курсовая работа</a>
+  </div>
+  <div id="course3" class="subject-header">
+    <a href=/portfolio/projects/course3/pract/ class="project-link"> Практики</a>
+  </div>
 </div>
 
 <div class="accordion-header" onclick="toggleAccordion('course4')">
   <span><span class="accordion-icon">▶</span> 4 курс</span>
 </div>
 <div id="course4" class="accordion-content">
-  
+  <div id="course4" class="subject-header">
+    <a href=/portfolio/projects/course4/upp/ class="project-link"> Управление программными проектами</a>
+  </div>
+  <div id="course4" class="subject-header">
+    <a href=/portfolio/projects/course4/prog/ class="project-link"> Программирование</a>
+  </div>
+  <div id="course4" class="subject-header">
+    <a href=/portfolio/projects/course4/mricb/ class="project-link"> Мировые информационные ресурсы и цифровые библиотеки</a>
+  </div>
+  <div id="course4" class="subject-header">
+    <a href=/portfolio/projects/course4/spviit/ class="project-link"> Социальные и профессиональные вопросы информатики и ИТ</a>
+  </div>
+  <div id="course4" class="subject-header">
+    <a href=/portfolio/projects/course4/itrek/ class="project-link"> IT-рекрутмент</a>
+  </div>
+  <div id="course4" class="subject-header">
+    <a href=/portfolio/projects/course4/itop/ class="project-link"> Информационные технологии оценки персонала</a>
+  </div>
+  <div id="course4" class="subject-header">
+    <a href=/portfolio/projects/course4/np/ class="project-link"> Научно-исследовательский проект</a>
+  </div>
+  <div id="course4" class="subject-header">
+    <a href=/portfolio/projects/course4/yns/ class="project-link"> Языки написания спецификаций</a>
+  </div>
+  <div id="course4" class="subject-header">
+    <a href=/portfolio/projects/course4/kurs/ class="project-link"> Курсовая работа</a>
+  </div>
+  <div id="course4" class="subject-header">
+    <a href=/portfolio/projects/course4/pract/ class="project-link"> Практики</a>
+  </div>
 </div>
